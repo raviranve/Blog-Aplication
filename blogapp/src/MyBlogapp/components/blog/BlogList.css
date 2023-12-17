@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.LSBtn:hover{
+    background-color: transparent;
+    color: black;
+    font-weight: bolder;
+}
+.BlAddBtn{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+    
+}
+.blog-post-content{
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.Blog-h3{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.addBlBtn{
+    height: 30px;
+    width: 100px;
+    background-color: orange;
+    border-radius: 3px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.blog-image-content{
+    display: flex;
+    margin: 30px 60px;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.blog-post-container{
+    height: 400px;
+    width: 330px;
+    border: 3px solid gray;
+    padding: 0px 10px;
+    margin-top: 10px;
+    border-radius: 12px;
+    background-color: rgb(218, 200, 177);
+}
+.blog-post-container:hover{
+    box-shadow: 5px 5px 5px 5px black;
+}
+.post-image{
+    height:60%;
+    width: 100%;
+    background-size: cover;
+}
+.blog-Name-date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.post-descripton{
+    margin: 15px 15px;
+    justify-content: right;
+    text-align: justify ;
+    line-height: 28px;
+}
+.blog-commLike{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: rgb(81, 80, 79);
+}
+.comments{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.blog-like{
+    font-size: 25px;
+}
+.Comment-like-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 20px;
+}
+.footer-of-blog{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+.blogdetail-likes{
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+li{
+    list-style: none;
+}
+.p-logo-information{
+    width: 250px;
+    text-align: justify;
+}
